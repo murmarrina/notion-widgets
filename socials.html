@@ -58,10 +58,6 @@
       color: #489AE9;
     }
 
-    .pinterest:hover {
-      color: #D32D2F;
-    }
-
     .telegram:hover {
       color: #27A6E6;
     }
@@ -81,11 +77,11 @@
 
     <div class="wrapper">
 
-      <!-- Start email Icon -->
-      <div id="email" onclick="navigate(this.id)" class="social">
-        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
+      <!-- Start telegram Icon -->
+      <div id="telegram" onclick="navigate(this.id)" class="social">
+        <span class="icon telegram"><i class="fab fa-telegram"></i></span>
       </div>
-      <!-- End email Icon -->
+      <!-- End telegram Icon -->
 
       <!-- Start facebook Icon -->
       <div id="facebook" onclick="navigate(this.id)" class="social">
@@ -93,29 +89,23 @@
       </div>
       <!-- End facebook Icon -->
 
-      <!-- Start instagram Icon -->
-      <div id="instagram" onclick="navigate(this.id)" class="social">
-        <span class="icon instagram"><i class="fab fa-instagram"></i></span>
-      </div>
-      <!-- End instagram Icon -->
-
       <!-- Start linkedin Icon -->
       <div id="linkedin" onclick="navigate(this.id)" class="social">
         <span class="icon linkedin"><i class="fab fa-linkedin"></i></span>
       </div>
       <!-- End linkedin Icon -->
 
-      <!-- Start pinterest Icon -->
-      <div id="pinterest" onclick="navigate(this.id)" class="social">
-        <span class="icon pinterest"><i class="fab fa-pinterest"></i></span>
+      <!-- Start instagram Icon -->
+      <div id="instagram" onclick="navigate(this.id)" class="social">
+        <span class="icon instagram"><i class="fab fa-instagram"></i></span>
       </div>
-      <!-- End pinterest Icon -->
+      <!-- End instagram Icon -->
 
-      <!-- Start telegram Icon -->
-      <div id="telegram" onclick="navigate(this.id)" class="social">
-        <span class="icon telegram"><i class="fab fa-telegram"></i></span>
+      <!-- Start email Icon -->
+      <div id="email" onclick="navigate(this.id)" class="social">
+        <span class="icon email"><i class="fa-solid fa-envelope"></i></span>
       </div>
-      <!-- End telegram Icon -->
+      <!-- End email Icon -->
 
 
 
@@ -130,24 +120,20 @@
         //if you want the URL to open in the same window use '_parent'  instead of '_blank'
 
 
-        else if (id === "email") {
-          window.open("mailto:marrin.aa@yandex.ru", '_blank').focus(); //Add your email after "mailto:""
+        else if (id === "telegram") {
+          window.open("http://t.me/marrinaa", '_blank').focus(); //Add the url to your telegram account
         }
-
         else if (id === "facebook") {
           window.open("https://www.facebook.com/uiuxmarina/", '_blank').focus(); //Add the url to your facebook page or account
-        }
-        else if (id === "instagram") {
-          window.open("https://instagram.com/marrinavl", '_blank').focus(); //Add the url to your instagram account
         }
         else if (id === "linkedin") {
           window.open("https://www.linkedin.com/in/marrin-a/", '_blank').focus(); //Add the url to your pinterest account
         }
-        else if (id === "pinterest") {
-          window.open("https://pinterest.com/murmarrina/", '_blank').focus(); //Add the url to your pinterest account
+        else if (id === "instagram") {
+          window.open("https://instagram.com/marrinavl", '_blank').focus(); //Add the url to your instagram account
         }
-        else if (id === "telegram") {
-          window.open("http://t.me/marrinaa", '_blank').focus(); //Add the url to your telegram account
+        else if (id === "email") {
+          window.open("mailto:marrin.aa@yandex.ru", '_blank').focus(); //Add your email after "mailto:""
         }
       }
 
