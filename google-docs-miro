@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <style>
+   * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      display: inline-flex;
+      place-items: center;
+    }
+    .wrapper {
+      display: inline-flex;
+      float:left;
+    }
+    .social {
+      position: relative;
+      margin: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+  
+<body>
+  
+  <div class="wrapper">
+
+    <!-- Miro -->
+    <div class="social">
+      <img src="https://github.com/murmarrina/notion-widgets/assets/124047017/d140fe82-5b4c-4a43-945c-6454933a7f0f" width="40" height="40" alt="Google Sheets">
+    </div>
+
+    <!-- Google Docs -->
+    <div class="social">
+      <img src="https://github.com/murmarrina/notion-widgets/assets/124047017/88000b15-b557-4a9a-932a-6c509c1044d2" width="40" height="40" alt="Google Sheets">
+    </div>
+    
+  </div>
+  
+</body>
+
+</html>
